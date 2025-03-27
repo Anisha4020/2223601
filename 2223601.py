@@ -6,4 +6,8 @@ def run() :
     # logic 
     df = pd.read_csv(r"C:\Users\S42104\Desktop\bajaj\Data Engineering\data - sample.xlsx")
     print(df.head())
-    return df
+    
+    return(df)
+import mysql.connector as c
+conn= c.connect()
+
